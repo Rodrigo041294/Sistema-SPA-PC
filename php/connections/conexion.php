@@ -1,7 +1,7 @@
 <?php
-$servidor = "db681014895.db.1and1.com";
-$usuario = "dbo681014895";
-$psw = "Romero10.";
+$servidor = "localhost";
+$usuario = "root";
+$psw = "root";
 $basedatos = "db681014895";
 
 
