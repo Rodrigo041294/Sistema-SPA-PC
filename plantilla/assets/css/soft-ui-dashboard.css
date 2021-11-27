@@ -47,7 +47,7 @@
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #67748e;
@@ -95,57 +95,57 @@ h1,
 
   h1,
   .h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
 h2,
 .h2 {
-  font-size: calc(1.35rem + 1.2vw);
+  font-size: calc(3.35rem + 1.2vw);
 }
 
 @media (min-width: 1200px) {
 
   h2,
   .h2 {
-    font-size: 2.25rem;
+    font-size: 4.25rem;
   }
 }
 
 h3,
 .h3 {
-  font-size: calc(1.3125rem + 0.75vw);
+  font-size: calc(3.3125rem + 0.75vw);
 }
 
 @media (min-width: 1200px) {
 
   h3,
   .h3 {
-    font-size: 1.875rem;
+    font-size: 3.875rem;
   }
 }
 
 h4,
 .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(3.275rem + 0.3vw);
 }
 
 @media (min-width: 1200px) {
 
   h4,
   .h4 {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
   }
 }
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 3.25rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 3rem;
 }
 
 p {
@@ -5118,7 +5118,7 @@ fieldset:disabled .btn {
   align-items: center;
   width: 100%;
   padding: 1rem 1rem;
-  font-size: 1rem;
+  font-size: 3rem;
   color: #67748e;
   text-align: left;
   background-color: transparent;
@@ -6658,7 +6658,7 @@ fieldset:disabled .btn {
 .popover-header {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 3rem;
   background-color: #e9ecef;
   border-bottom: 0px solid #d2d4d7;
   border-top-left-radius: calc(0.75rem - 0px);
@@ -12770,7 +12770,7 @@ fieldset:disabled .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 3rem;
   border-radius: 0.75rem;
   height: 48px;
   width: 48px;
@@ -14125,7 +14125,7 @@ label,
 .footer .nav-link {
   color: #252f40;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   padding-top: 0;
   padding-bottom: 0.25rem;
 }
@@ -15027,7 +15027,7 @@ hr.horizontal.gray-light {
   background: #fff;
   text-align: center;
   transform: translateX(-50%);
-  font-size: 1rem;
+  font-size: 3rem;
   font-weight: 600;
   z-index: 1;
 }
@@ -15194,7 +15194,7 @@ h4,
 h5,
 .h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 1.9rem;
   line-height: 1.375;
 }
 
@@ -15210,13 +15210,13 @@ h5,
 h6,
 .h6,
 .h6 {
-  font-size: 1rem;
+  font-size: 3rem;
   line-height: 1.625;
 }
 
 p,
 .p {
-  font-size: 1rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 1.6;
 }
@@ -15281,7 +15281,7 @@ a {
 
 p,
 .p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .lead {
@@ -15293,7 +15293,7 @@ p,
 }
 
 .text-sm {
-  font-size: 0.875rem !important;
+  font-size: 1.5rem !important;
 }
 
 .text-xs {

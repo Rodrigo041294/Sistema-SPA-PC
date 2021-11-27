@@ -3183,9 +3183,9 @@ hr {
 
 .slider-area {
     margin-top: -1px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     padding-bottom: 90px;
-    background: #CCCCCC /*color header*/;
+    /* background: #CCCCCC color header; */
     position: relative;
 }
 
@@ -3562,19 +3562,22 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .visit-tailor-area {
-        display: block
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
 @media (max-width: 575px) {
     .visit-tailor-area {
-        display: block
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .visit-tailor-area {
-        display: block
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
@@ -3691,21 +3694,24 @@ hr {
 @media (max-width: 575px) {
     .visit-tailor-area .tailor-offers {
         width: 100%;
-        height: 500px
+        height: auto;
+        padding: 0px 10px  50px 10px !important;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .visit-tailor-area .tailor-offers {
         width: 100%;
-        height: 500px
+        height: auto;
+        padding-top: 0px !important;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .visit-tailor-area .tailor-offers {
         width: 100%;
-        height: 500px
+        height: auto;
+        padding-top: 0 !important;
     }
 }
 
