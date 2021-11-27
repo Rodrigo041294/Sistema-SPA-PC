@@ -3695,7 +3695,7 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 570px;
+    /* height: 570px; */
     width: 55%
 }
 
