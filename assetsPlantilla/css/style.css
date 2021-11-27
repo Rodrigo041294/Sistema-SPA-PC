@@ -424,7 +424,7 @@ hr {
     }
 }
 
-.btn::before {
+/* .btn::before {
     content: "";
     position: absolute;
     left: 0;
@@ -440,7 +440,7 @@ hr {
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
     transform: scaleX(0);
     border-radius: 0px
-}
+} */
 
 .btn:hover::before {
     transform: scaleX(1);
@@ -2629,7 +2629,8 @@ hr {
 }
 
 .header-area {
-    background: #FFFFFF /*color header*/ 
+    background: #FFFFFF; /*color header*/ 
+    height: 100px;
 }
 
 .header-area .main-header {
@@ -2701,13 +2702,16 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .menu-wrapper .logo img {
-        width: 159px
+        width: 130px
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area .menu-wrapper .logo img {
-        width: 148px
+        width: 114px
+    }
+    .header-area {
+        height: 84px;
     }
 }
 
@@ -2715,17 +2719,26 @@ hr {
     .header-area .menu-wrapper .logo img {
         width: 104px
     }
+    .header-area {
+        height: 74px;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .header-area .menu-wrapper .logo img {
         width: 100px
     }
+    .header-area {
+        height: 70px;
+    }
 }
 
 @media (max-width: 575px) {
     .header-area .menu-wrapper .logo img {
         width: 100px
+    }
+    .header-area {
+        height: 70px;
     }
 }
 
@@ -2849,7 +2862,8 @@ hr {
     background: #E6E6E6 /*color header*/;
     padding-left: 85px;
     padding-right: 30px;
-    box-shadow: none
+    box-shadow: none;
+    height: 90px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3249,7 +3263,7 @@ hr {
 }
 
 .slider-area .hero__caption {
-    padding: 39px 70px 56px 68px;
+    padding: 0 70px 0 68px;
     margin-left: -25px;
     margin-right: 25px;
     position: relative;
